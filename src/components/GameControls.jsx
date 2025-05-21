@@ -13,7 +13,7 @@ const GameControls = ({
 }) => {
   return (
     <div className="w-full flex flex-wrap justify-center gap-3 mb-4">
-      <div className="flex gap-1 p-1 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-full shadow-inner">
+      {/*<div className="flex gap-1 p-1 bg-gradient-to-r from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 rounded-full shadow-inner">
         {(['easy', 'medium', 'hard']).map((level) => (
           <button
             key={level}
@@ -30,7 +30,7 @@ const GameControls = ({
             {level.charAt(0).toUpperCase() + level.slice(1)}
           </button>
         ))}
-      </div>
+      </div>*/}
 
       <button
         className={`
